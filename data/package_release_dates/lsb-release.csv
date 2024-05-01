@@ -1,0 +1,9 @@
+package,source_package,date,version,repo
+lsb-release,lsb,2019-08-16T05:20:52+00:00,11.1.0,unstable
+lsb-release,lsb,2019-08-14T22:31:15+00:00,11.0.1,unstable
+lsb-release,lsb,2019-08-13T18:24:19+00:00,11.0.0,unstable
+lsb-release,lsb,2019-05-14T08:50:39+02:00,10.2019051400,unstable
+lsb-release,lsb,2019-03-13T21:42:26+01:00,10.2019031300,unstable
+lsb-release,lsb,2018-11-28T20:21:37+01:00,10.2018112800,unstable
+lsb-release,lsb,2017-08-07T10:50:21-04:00,9.20170808,unstable
+lsb-release,lsb,2017-08-07T10:33:54-04:00,9.20170807,unstable

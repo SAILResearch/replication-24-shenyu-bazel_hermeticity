@@ -1,0 +1,14 @@
+package,source_package,date,version,repo
+libgmp10,gmp,2021-11-23T21:37:19+01:00,2:6.2.1+dfsg-1+deb11u1,bullseye
+libgmp10,gmp,2020-11-15T12:04:37-06:00,2:6.2.1+dfsg-1,unstable
+libgmp10,gmp,2020-06-14T19:03:25-05:00,2:6.2.0+dfsg-6,unstable
+libgmp10,gmp,2020-05-14T13:49:24+08:00,2:6.2.0+dfsg-5,unstable
+libgmp10,gmp,2020-02-23T21:06:28-06:00,2:6.2.0+dfsg-4,unstable
+libgmp10,gmp,2020-01-31T20:16:16-06:00,2:6.2.0+dfsg-3,unstable
+libgmp10,gmp,2020-01-26T09:44:33-06:00,2:6.2.0+dfsg-2,experimental
+libgmp10,gmp,2020-01-25T21:13:16-06:00,2:6.2.0+dfsg-1,experimental
+libgmp10,gmp,2018-12-02T06:39:34+00:00,2:6.1.2+dfsg-4,unstable
+libgmp10,gmp,2018-03-06T22:04:40+00:00,2:6.1.2+dfsg-3,unstable
+libgmp10,gmp,2018-01-24T13:50:55+01:00,2:6.1.2+dfsg-2,unstable
+libgmp10,gmp,2018-01-15T13:06:20+01:00,2:6.1.2+dfsg-1.2,unstable
+libgmp10,gmp,2017-09-29T02:22:49+02:00,2:6.1.2+dfsg-1.1,unstable

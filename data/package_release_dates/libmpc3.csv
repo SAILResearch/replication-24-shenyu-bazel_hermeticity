@@ -1,0 +1,5 @@
+package,source_package,date,version,repo
+libmpc3,mpclib3,2020-08-31T18:56:48+02:00,1.2.0-1,unstable
+libmpc3,mpclib3,2020-07-30T16:19:21+02:00,1.2.0~rc1-1,unstable
+libmpc3,mpclib3,2018-01-23T05:05:10+01:00,1.1.0-1,unstable
+libmpc3,mpclib3,2017-09-13T12:53:56+02:00,1.0.3-2,unstable

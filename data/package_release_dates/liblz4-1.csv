@@ -1,0 +1,16 @@
+package,source_package,date,version,repo
+liblz4-1,lz4,2021-05-05T16:29:57+09:00,1.9.3-2,unstable
+liblz4-1,lz4,2020-12-01T06:07:12+09:00,1.9.3-1,unstable
+liblz4-1,lz4,2019-11-12T07:58:47+09:00,1.9.2-2,unstable
+liblz4-1,lz4,2019-10-29T19:19:36+09:00,1.9.2-1,unstable
+liblz4-1,lz4,2019-08-20T22:43:48+09:00,1.9.1-2,unstable
+liblz4-1,lz4,2019-05-24T07:51:04+09:00,1.9.1-1,experimental
+liblz4-1,lz4,2018-09-25T22:26:58+09:00,1.8.3-1,unstable
+liblz4-1,lz4,2018-05-14T16:45:54+09:00,1.8.2-1,unstable
+liblz4-1,lz4,2018-04-13T10:39:09+09:00,1.8.1.2-1,unstable
+liblz4-1,lz4,2018-04-12T11:46:55+09:00,1.8.0-5,unstable
+liblz4-1,lz4,2018-04-12T08:31:07+09:00,1.8.0-4,experimental
+liblz4-1,lz4,2018-04-11T09:02:37+09:00,1.8.0-3,experimental
+liblz4-1,lz4,2017-11-08T13:26:35+09:00,1.8.0-2,experimental
+liblz4-1,lz4,2017-08-31T08:07:55+09:00,1.8.0-1,experimental
+liblz4-1,lz4,2017-06-19T09:09:28+09:00,1.7.5-1,UNRELEASED

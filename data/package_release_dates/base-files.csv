@@ -1,0 +1,16 @@
+package,source_package,date,version,repo
+base-files,base-files,2024-01-28T22:20:00+01:00,11.1+deb11u9,bullseye
+base-files,base-files,2023-09-29T22:00:00+02:00,11.1+deb11u8,bullseye
+base-files,base-files,2023-04-02T13:55:00+02:00,11.1+deb11u7,bullseye
+base-files,base-files,2022-12-09T20:15:00+01:00,11.1+deb11u6,bullseye
+base-files,base-files,2022-09-03T14:10:00+02:00,11.1+deb11u5,bullseye
+base-files,base-files,2022-06-30T23:35:00+02:00,11.1+deb11u4,bullseye
+base-files,base-files,2022-03-19T14:46:00+01:00,11.1+deb11u3,bullseye
+base-files,base-files,2021-12-11T18:25:00+01:00,11.1+deb11u2,bullseye
+base-files,base-files,2021-10-03T11:15:00+02:00,11.1+deb11u1,bullseye
+base-files,base-files,2021-04-10T22:15:00+02:00,11.1,unstable
+base-files,base-files,2019-07-09T12:05:50+02:00,11,unstable
+base-files,base-files,2019-05-13T22:25:32+02:00,10.3,unstable
+base-files,base-files,2019-04-19T13:05:00+02:00,10.2,unstable
+base-files,base-files,2018-01-14T00:36:34+01:00,10.1,unstable
+base-files,base-files,2017-06-26T00:19:42+02:00,10,unstable

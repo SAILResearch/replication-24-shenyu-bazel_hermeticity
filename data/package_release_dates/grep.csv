@@ -1,0 +1,8 @@
+package,source_package,date,version,repo
+grep,grep,2023-01-25T09:23:20+01:00,3.6-1+deb11u1,bullseye
+grep,grep,2020-11-09T21:37:02+01:00,3.6-1,unstable
+grep,grep,2020-01-29T10:31:53+01:00,3.4-1,unstable
+grep,grep,2019-01-07T12:04:36-03:00,3.3-1,unstable
+grep,grep,2018-12-02T18:58:48+01:00,3.1-3,unstable
+grep,grep,2017-07-12T12:59:03+02:00,3.1-2,unstable
+grep,grep,2017-07-11T16:25:21+02:00,3.1-1,unstable

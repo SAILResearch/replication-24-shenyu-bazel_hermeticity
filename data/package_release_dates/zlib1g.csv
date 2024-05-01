@@ -1,0 +1,7 @@
+package,source_package,date,version,repo
+zlib1g,zlib,2022-08-23T20:54:06+02:00,1:1.2.11.dfsg-2+deb11u2,bullseye-security
+zlib1g,zlib,2022-03-25T22:45:28+01:00,1:1.2.11.dfsg-2+deb11u1,bullseye-security
+zlib1g,zlib,2020-02-24T21:07:12+00:00,1:1.2.11.dfsg-2,unstable
+zlib1g,zlib,2020-02-03T12:00:47+08:00,1:1.2.11.dfsg-1.2,unstable
+zlib1g,zlib,2020-01-28T19:55:38+08:00,1:1.2.11.dfsg-1.1,unstable
+zlib1g,zlib,2017-09-25T12:03:05-07:00,1:1.2.11.dfsg-1,unstable

@@ -1,0 +1,4 @@
+package,source_package,date,version,repo
+gawk,gawk,2021-02-10T10:42:58+02:00,1:5.1.0-1,unstable
+gawk,gawk,2019-11-03T21:22:40+02:00,1:5.0.1+dfsg-1,unstable
+gawk,gawk,2018-09-14T18:25:25+03:00,1:4.2.1+dfsg-1,unstable

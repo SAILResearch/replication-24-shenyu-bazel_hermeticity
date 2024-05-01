@@ -1,0 +1,9 @@
+tool_name,version,date
+imagemagick,8:6.9.7.4+dfsg-16ubuntu6.9,2021-04-01T09:04:35+00:00
+imagemagick,8:6.9.7.4+dfsg-16ubuntu6.11,2021-06-24T08:48:57+00:00
+imagemagick,8:6.9.7.4+dfsg-16ubuntu6.12,2021-12-09T13:26:34+00:00
+imagemagick,8:6.9.7.4+dfsg-16ubuntu6.11,2021-12-09T13:56:27+00:00
+imagemagick,8:6.9.7.4+dfsg-16ubuntu6.12,2021-12-13T09:17:56+00:00
+imagemagick,8:6.9.7.4+dfsg-16ubuntu6.13,2022-06-09T18:27:47+00:00
+imagemagick,8:6.9.7.4+dfsg-16ubuntu6.14,2022-12-22T18:33:45+00:00
+imagemagick,8:6.9.7.4+dfsg-16ubuntu6.15,2023-02-18T17:07:17+00:00

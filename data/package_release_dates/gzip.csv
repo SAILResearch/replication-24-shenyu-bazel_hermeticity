@@ -1,0 +1,11 @@
+package,source_package,date,version,repo
+gzip,gzip,2022-04-10T01:50:32-04:00,1.10-4+deb11u1,bullseye-security
+gzip,gzip,2021-03-02T18:30:16-05:00,1.10-4,sid
+gzip,gzip,2021-02-26T21:11:52-05:00,1.10-3,sid
+gzip,gzip,2020-03-19T11:01:46-06:00,1.10-2,unstable
+gzip,gzip,2020-02-25T14:56:28-07:00,1.10-1,unstable
+gzip,gzip,2019-01-05T16:03:32-07:00,1.9-3,unstable
+gzip,gzip,2018-12-28T14:34:28+00:00,1.9-2.2,unstable
+gzip,gzip,2018-09-29T18:28:06+02:00,1.9-2.1,unstable
+gzip,gzip,2018-08-05T08:30:09+08:00,1.9-2,unstable
+gzip,gzip,2018-07-29T15:17:27+08:00,1.9-1,unstable

@@ -1,0 +1,8 @@
+package,source_package,date,version,repo
+libbz2-1.0,bzip2,2020-07-20T15:00:23+02:00,1.0.8-4,unstable
+libbz2-1.0,bzip2,2020-05-26T15:19:32+02:00,1.0.8-3,unstable
+libbz2-1.0,bzip2,2019-09-05T17:05:14+02:00,1.0.8-2,unstable
+libbz2-1.0,bzip2,2019-07-22T18:57:54-03:00,1.0.8-1,experimental
+libbz2-1.0,bzip2,2019-07-10T06:25:07+02:00,1.0.6-9.2,unstable
+libbz2-1.0,bzip2,2019-06-24T22:15:37+02:00,1.0.6-9.1,unstable
+libbz2-1.0,bzip2,2018-08-14T13:28:22-06:00,1.0.6-9,unstable

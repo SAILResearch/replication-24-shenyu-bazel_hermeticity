@@ -1,0 +1,53 @@
+_LF : "\n"
+_EQ : "="
+_SP : " "
+PERIOD : "."
+
+NOT_LF : /[^\n]+/
+
+DIGIT : /[0-9]/
+DIGITS : DIGIT+
+
+TIMESTAMP : DIGITS PERIOD DIGITS
+DURATION : DIGITS PERIOD DIGITS
+
+start : line+
+# line : pid _SP timestamp _SP body _LF
+# pid : DIGITS
+line : timestamp _SP body _LF
+timestamp : TIMESTAMP
+body : syscall | alert_body
+
+syscall : syscall_name "(" syscall_args ")" syscall_result (_SP syscall_duration)?
+
+syscall_name : /[a-z0-9A-Z_]+/ -> name
+syscall_args : _syscall_args -> args
+
+_syscall_args : /[^\n]+(?=\) = )/
+
+
+# syscall_name : /[a-z0-9A-Z_]+/ -> name
+# syscall_args : _syscall_arg? ("," _SP _syscall_arg)* -> args
+# _syscall_arg : braced
+#              | bracketed
+#              | function_like
+#              | sigset
+#              | other
+#
+#
+#
+# bracketed : "[" syscall_args "]"
+# braced : "{" syscall_args "}"
+# function_like : /[a-zA-Z_]+/ "(" syscall_args ")"
+#
+# NEGATED : "~"
+# SIGNAL : /[0-9A-Z_]+/
+# sigset : NEGATED? "[" SIGNAL? (_SP SIGNAL)* "]"
+# other : /[^,(){}\[\]]+/
+
+
+
+syscall_result : _SP (_SP)* "=" _SP NOT_LF -> result
+syscall_duration : "<" DURATION ">" -> duration
+
+alert_body : "+++" _SP "exited with" _SP DIGITS _SP "+++"

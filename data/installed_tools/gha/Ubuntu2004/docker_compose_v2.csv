@@ -1,0 +1,17 @@
+tool_name,version,date
+docker_compose_v2,2.15.1+azure-1,2023-01-12T13:14:56+00:00
+docker_compose_v2,2.16.0+azure-2,2023-02-18T17:35:35+00:00
+docker_compose_v2,2.17.2+azure-1,2023-04-06T09:37:48+00:00
+docker_compose_v2,2.17.3+azure-1,2023-04-26T18:18:07+00:00
+docker_compose_v2,2.18.0+azure-1,2023-06-08T11:09:44+00:00
+docker_compose_v2,2.18.1+azure-1,2023-06-15T10:52:02+00:00
+docker_compose_v2,2.18.1+azure-2,2023-06-22T10:50:29+00:00
+docker_compose_v2,2.19.0+azure-1,2023-06-29T09:04:26+00:00
+docker_compose_v2,2.19.1+azure-1,2023-07-13T11:37:03+00:00
+docker_compose_v2,2.20.0+azure-1,2023-07-20T10:47:52+00:00
+docker_compose_v2,2.20.2+azure-1,2023-07-26T07:36:40+00:00
+docker_compose_v2,2.20.3,2023-08-24T11:06:16+00:00
+docker_compose_v2,2.21.0,2023-09-07T11:49:34+00:00
+docker_compose_v2,2.22.0,2023-09-28T06:48:30+00:00
+docker_compose_v2,2.23.0,2023-10-26T10:20:49+00:00
+docker_compose_v2,2.23.3,2023-11-30T22:09:32+00:00
