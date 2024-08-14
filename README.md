@@ -20,6 +20,57 @@ This replication package contains the following files:
 - `strace_parser`: The scripts used to parse the strace logs
 - `visualization/`: The scripts used to visualize the results
 
+### Start Experiment
+
+#### Setup
+
+**Install the required packages**
+```bash
+apt-get update && \
+apt-get -y install \
+        make curl apt-utils \
+        python \
+        python3 \
+        python-pkg-resources \
+        python3-pkg-resources \
+        software-properties-common \
+        unzip \
+        git \
+        build-essential \
+        nodejs npm \
+        openjdk-17-jdk
+
+
+wget https://go.dev/dl/go1.19.7.linux-amd64.tar.gz -o go1.19.7.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.19.7.linux-amd64.tar.gz
+export PATH="/usr/local/go/bin:${PATH}"
+
+curl https://sh.rustup.rs -sSf | bash -s -- -y
+echo 'source $HOME/.cargo/env' >> $HOME/.bashrc
+export PATH="/root/.cargo/bin:${PATH}"
+
+wget https://github.com/bazelbuild/bazelisk/releases/download/v1.16.0/bazelisk-linux-amd64 -o /usr/local/bin/bazel
+chmod +x /usr/local/bin/bazel
+
+
+```
+
+**Install the required Python packages**
+```bash
+cd experiments/
+
+pip install -r requirements.txt
+
+```
+
+#### Start the experiment
+```bash
+cd experiments/
+bash start_experiments.sh
+
+# the results are stored on ./results/directory
+```
+
 ### Authors
 
 Shenyu Zheng
