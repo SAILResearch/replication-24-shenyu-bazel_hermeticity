@@ -13,6 +13,7 @@ This replication package contains the following files:
 
 - `cirunner/`: The scripts used to analyze version changes of installed packages on GitHub Actions and CircleCI runners
 - `data/`: The raw data of our study
+  - For the full dataset, please refer to the [Zenodo repository](https://zenodo.org/records/13324237)
 - `data_process/`: The scripts used to process the raw data
 - `experiments/`: The scripts used to run the experiments
 - `externalmanaged/`: The scripts used to identify the non-hermetic dependencies that are externally managed 
