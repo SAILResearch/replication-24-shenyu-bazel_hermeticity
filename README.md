@@ -16,7 +16,6 @@ This replication package contains the following files:
 - `data_process/`: The scripts used to process the raw data
 - `experiments/`: The scripts used to run the experiments
 - `externalmanaged/`: The scripts used to identify the non-hermetic dependencies that are externally managed 
-- `projects/`: The scripts used to collect GitHub projects from Sourcegraph
 - `priority`: The scripts used to query the priority of Debian packages
 - `strace_parser`: The scripts used to parse the strace logs
 - `visualization/`: The scripts used to visualize the results
