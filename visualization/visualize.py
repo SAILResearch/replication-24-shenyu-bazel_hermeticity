@@ -20,9 +20,9 @@ from data_process.common import read_external_packages
 def visualize(data_path: str):
     sns.set_theme(style="whitegrid")
     # visualize_syscall(os.path.join(data_path, "syscall_processed"))
-    count_unknown_files(os.path.join(data_path, "package_processed"))
+    # count_unknown_files(os.path.join(data_path, "package_processed"))
     # visualize_deps(os.path.join(data_path, "package_processed"), os.path.join(data_path, "bazel_managed_deps.csv"))
-    # visualize_deps_by_deptype(os.path.join(data_path, "package_processed"))
+    visualize_deps_by_deptype(os.path.join(data_path, "package_processed"))
     # visualize_external_managed_dep(os.path.join(data_path, "package_processed"),
     #                                os.path.join(data_path, "external_managed_packages_manually_examined.csv"))
     # visualize_prevalence(os.path.join(data_path, "package_processed"))
@@ -157,8 +157,12 @@ def visualize_deps_by_deptype(external_deps_dir_path):
         (unmanaged_deps_df['dep_type'] == 'toolchain') & (unmanaged_deps_df['category'] == 'Unmanaged (Transitive)')][
         'counts']
 
+    print(f"total number of top level unmanaged library: {top_level_unmanaged_library.sum()}")
+    print(f"total number of transitive unmanaged library: {transitive_unmanaged_library.sum()}")
     print(f"median top level unmanaged library: {top_level_unmanaged_library.median()}")
     print(f"median transitive unmanaged library: {transitive_unmanaged_library.median()}")
+    print(f"total number of top level unmanaged toolchain: {top_level_unmanaged_toolchain.sum()}")
+    print(f"total number of transitive unmanaged toolchain: {transitive_unmanaged_toolchain.sum()}")
     print(f"median top level unmanaged toolchain: {top_level_unmanaged_toolchain.median()}")
     print(f"median transitive unmanaged toolchain: {transitive_unmanaged_toolchain.median()}")
 

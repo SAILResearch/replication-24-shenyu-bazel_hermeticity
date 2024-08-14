@@ -35,7 +35,7 @@ def run_experiment(project: Project) -> [PkgInfo]:
 
     logging.info(f"starting collect the strace logs for {project.project_name}, build target {project.target}")
     process = subprocess.Popen('/bin/bash', stdin=subprocess.PIPE, stdout=subprocess.PIPE)
-    stdout, stderr = process.communicate(cmd.encode('tf-8'))
+    stdout, stderr = process.communicate(cmd.encode('utf-8'))
 
     if process.returncode != 0:
         logging.error(
@@ -43,8 +43,9 @@ def run_experiment(project: Project) -> [PkgInfo]:
         raise Exception(f"failed to run experiment for {project.project_name}, stdout: {stdout} error: {stderr}")
 
     logging.info(f"successfully generate strace logs, starting to analyze them")
-    trace_logs_path = f"/results/{project.project_name}/merged_trace_logs.log"
-    return analyze_strace_logs(project, trace_logs_path)
+    return []
+    # trace_logs_path = f"/results/{project.project_name}/merged_trace_logs.log"
+    # return analyze_strace_logs(project, trace_logs_path)
 
 
 # cloud-spanner-emulator
